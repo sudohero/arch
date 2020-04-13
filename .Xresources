@@ -1,0 +1,70 @@
+! Cursor theme
+xcursor.theme:            Vanilla-DMZ
+
+! URxvt config
+URxvt*termName:           rxvt-16color
+
+URxvt.scrollBar:          off
+URxvt.font:               xft:Ubuntu Mono:size=15
+URxvt.internalBorder:     0
+URxvt*selectToClipboard:  true
+URxvt*saveLines:          10000
+URxvt.letterspace: 	  -1
+URxvt*inheritPixmap:	  true
+URxvt.shading:		  25 
+URxvt.tintColor:	  white
+URxvt.secondaryScroll:	  true
+
+URxvt.perl-ext-common:    default,matcher,tabbedex,searchable-scrollback
+URxvt.urlLauncher:        /usr/bin/firefox
+URxvt.matcher.button:     1
+URxvt.tabbed.tabbar-fg:   8
+URxvt.tabbed.tabbar-bg:   0
+URxvt.tabbed.tab-fg:      2
+URxvt.tabbed.tab-bg:      0
+URxvt.tabbed.new-button:  no
+URxvt.tabbed.title:       no
+
+! Tango color palette
+URxvt*background:         #2e3436
+URxvt*foreground:         #eeeeec
+URxvt*cursorColor:        #eeeeec
+! foreground color for underline
+URxvt*colorUL:            #eeeeec
+! line color for underline
+URxvt*underlineColor:     #dbdbd6
+!! black dark/light
+*color0: #073642
+*color8: #006680
+
+!! red dark/light
+*color1: #dc322f
+*color9: #cb4b16
+
+!! green dark/light
+*color2: #859900
+*color10: #83afaf
+
+!! yellow dark/light
+*color3: #b58900
+*color11: #657b83
+
+!! blue dark/light
+*color4: #268bd2
+*color12: #586e74
+
+!! magenta dark/light
+*color5: #d33682
+*color13: #494eb6
+
+!! cyan dark/light
+*color6: #2aa198
+*color14: #939191
+
+!! white dark/light
+*color7: #eee8d5
+*color15: #fdf6e3
+
+! xscreensaver
+xscreensaver.fade:        false
+xscreensaver.unfade:      false
