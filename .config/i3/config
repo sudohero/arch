@@ -214,4 +214,4 @@ bar {
     }
 }
 
-exec_always feh --bg-scale /home/heath/pictures/wallpaper/wallpaper3.jpg
+exec_always feh --bg-scale /home/heath/pictures/wallpaper/wallpaper5.jpg
