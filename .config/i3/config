@@ -59,7 +59,8 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+#bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec st
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -214,4 +215,4 @@ bar {
     }
 }
 
-exec_always feh --bg-scale /home/heath/pictures/wallpaper/wallpaper5.jpg
+exec_always feh --bg-scale /home/heath/pictures/wallpaper/campfire.jpg
